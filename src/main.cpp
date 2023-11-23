@@ -1,7 +1,7 @@
 /*
- * Author: Umchik2005
- * Date: 23.11.2023
- * Name: Muhammad Umar Toshpo'latov
+ * : Farxod Qarshiyev
+ * : 23.11.2023
+ * : Farxod
  */
 
 #include <iostream>
@@ -17,7 +17,7 @@
 #include "task_10.h"
 
 int main() {
-    std::cout << "Task 1" << std::endl;
+    std::cout << "Vazifa 1" << std::endl;
     int a, b;
 
     std::cin >> a;
@@ -29,87 +29,87 @@ int main() {
         descendingOrder(a, b);
     }
     std::cout << std::endl;
-    std::cout << "/////////////////////////////////////" << std::endl;
-    
-    std::cout << "Task 2" << std::endl;
-    
+    std::cout << "_____________________________________" << std::endl;
+
+    std::cout << "Vazifa 2" << std::endl;
+
     int n2;
     std::cin >> n2;
     bool isPowerOfTwo = secondTask(n2);
     if(isPowerOfTwo){
-        std::cout << "YES";
+        std::cout << "HA";
     } else {
-        std::cout << "NO";
+        std::cout << "YO'Q";
     }
     std::cout << std::endl;
-    std::cout << "/////////////////////////////////////" << std::endl;
-    
-    std::cout << "Task 3" << std::endl;
-    
+    std::cout << "________________________________________-" << std::endl;
+
+    std::cout << "Vazifa 3" << std::endl;
+
     int n3;
     std::cin >> n3;
-    int sum = sumOfDigits(n3);
-    std::cout << sum << std::endl;
-    std::cout << "/////////////////////////////////////" << std::endl;
+    int yigindi = sumOfDigits(n3);
+    std::cout << yigindi << std::endl;
+    std::cout << "________________________________________" << std::endl;
 
-    std::cout << "Task 4" << std::endl;
-    
+    std::cout << "Vazifa 4" << std::endl;
+
     int n4;
     std::cin >> n4;
     if(isPrime(n4)){
-        std::cout << "YES";
+        std::cout << "HA";
     } else {
-        std::cout << "NO";
+        std::cout << "YO'Q";
     }
     std::cout << std::endl;
-    std::cout << "/////////////////////////////////////" << std::endl;
+    std::cout << "________________________________________" << std::endl;
 
-    std::cout << "Task 5" << std::endl;
+    std::cout << "Vazifa 5" << std::endl;
 
     std::string s5;
     std::cin >> s5;
 
     std::cout << isPalindrome(s5, 0, s5.length() - 1) << std::endl;
-    std::cout << "/////////////////////////////////////" << std::endl;
+    std::cout << "________________________________________" << std::endl;
 
-    std::cout << "Task 6" << std::endl;
+    std::cout << "Vazifa 6" << std::endl;
 
     int i = 0;
-    int numbers[100];
+    int sonlar[100];
     while (true) {
-        std::cin >> numbers[i];
-        if (numbers[i] == 0) {
+        std::cin >> sonlar[i];
+        if (sonlar[i] == 0) {
             break;
         }
         i++;
     }
-    int secondLargestNumber = secondLargest(numbers, i);
-    std::cout << secondLargestNumber << std::endl;
-    
-    std::cout << "/////////////////////////////////////" << std::endl;
+    int ikkinchiEngKattaSon = secondLargest(sonlar, i);
+    std::cout << ikkinchiEngKattaSon << std::endl;
 
-    std::cout << "Task 7" << std::endl;
+    std::cout << "________________________________________" << std::endl;
+
+    std::cout << "Vazifa 7" << std::endl;
 
     int n7;
     std::cin >> n7;
-    int numberOfDigits = countDigit(n7);
+    int raqamlarSoni = countDigit(n7);
 
-    std::cout << reverseNum(n7, numberOfDigits - 1) << std::endl;
+    std::cout << reverseNum(n7, raqamlarSoni - 1) << std::endl;
 
-    std::cout << "/////////////////////////////////////" << std::endl;
+    std::cout << "________________________________________" << std::endl;
 
-    std::cout << "Task 8" << std::endl;
+    std::cout << "Vazifa 8" << std::endl;
 
-    std::string number1, number2;
+    std::string son1, son2;
 
-    std::getline(std::cin >> std::ws, number1);
-    std::getline(std::cin >> std::ws, number2);
+    std::getline(std::cin >> std::ws, son1);
+    std::getline(std::cin >> std::ws, son2);
 
-    std::cout << multiply(number1, number2) << std::endl;
+    std::cout << multiply(son1, son2) << std::endl;
 
-    std::cout << "/////////////////////////////////////" << std::endl;
+    std::cout << "________________________________________" << std::endl;
 
-    std::cout << "Task 9" << std::endl;
+    std::cout << "Vazifa 9" << std::endl;
 
     Heap heap;
 
@@ -126,9 +126,9 @@ int main() {
 
     heap.printHeapElemnts();
 
-    std::cout << "/////////////////////////////////////" << std::endl;
+    std::cout << "________________________________________" << std::endl;
 
-    std::cout << "Task 10" << std::endl;
+    std::cout << "Vazifa 10" << std::endl;
 
     std::string s10;
     std::cin >> s10;

@@ -1,7 +1,7 @@
 /*
- * Author:
- * Date:
- * Name:
+ * Author: Farxod Qarshiyev
+ * Date: 23.11.2023
+ * Name: Farxod
  */
 void ascendingOrder(int A, int B) {
     if (A <= B) {
